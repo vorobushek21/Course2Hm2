@@ -1,4 +1,7 @@
 package transport;
 
-public class Competing {
+public interface Competing {
+    void pitStop();
+    void bestLapTime();
+    void maxSpeed();
 }
